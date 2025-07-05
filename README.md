@@ -4,7 +4,7 @@ parse json files given path with little bit of variation in the key value.
 # Usage
 ```python
 import fuzzy_parser
-payload = fuzzy_parser.load_payload(r"Z:\Documents\TASKS\readpl\test.json")
+payload = fuzzy_parser.load_payload(r"Z:\files\test.json")
 result  = fuzzy_parser.parse_mapping("stud_ents/Name", payload)
 print(result)
 ```
@@ -15,7 +15,7 @@ students/[1]/name=Dwight
 students/[2]/name=Kevin
 ```
 
-`test.json`
+`Z:\files\test.json`
 ```json
 {
     "school_name": "Dunder Miflin",
