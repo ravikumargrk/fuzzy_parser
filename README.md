@@ -9,6 +9,7 @@ result = fuzzy_parser.parse_mapping("stud_ents/Name", payload)
 print(result)
 ```
 ```
+OUTPUT:
 students/[0]/name=Jim
 students/[1]/name=Dwight
 students/[2]/name=Kevin
