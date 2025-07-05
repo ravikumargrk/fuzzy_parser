@@ -15,7 +15,8 @@ students/[1]/name=Dwight
 students/[2]/name=Kevin
 ```
 
-```test.json
+`test.json`
+```json
 {
     "school_name": "Dunder Miflin",
     "class": "Year 1",
